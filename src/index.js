@@ -130,6 +130,10 @@ app.get('/', (req,res)=>{
   res.send('ladin page')
 })
 
+app.get('/about', (req,res)=>{
+  res.send('ladin page')
+})
+
 
 
 app.listen(port)
